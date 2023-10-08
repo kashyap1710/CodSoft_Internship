@@ -1,0 +1,74 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(113, 130, 130);
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.qualities {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+ul {
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Young Serif', serif;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+/* Style the link color */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
